@@ -119,6 +119,21 @@ severity
 
 ---
 
+## Allowed Values
+
+Use the closest matching value from these compact lists.
+
+| Field | Values |
+|---|---|
+| `issue_type` | `dent`, `scratch`, `crack`, `glass_shatter`, `broken_part`, `missing_part`, `torn_packaging`, `crushed_packaging`, `water_damage`, `stain`, `none`, `unknown` |
+| Car `object_part` | `front_bumper`, `rear_bumper`, `door`, `hood`, `windshield`, `side_mirror`, `headlight`, `taillight`, `fender`, `quarter_panel`, `body`, `unknown` |
+| Laptop `object_part` | `screen`, `keyboard`, `trackpad`, `hinge`, `lid`, `corner`, `port`, `base`, `body`, `unknown` |
+| Package `object_part` | `box`, `package_corner`, `package_side`, `seal`, `label`, `contents`, `item`, `unknown` |
+
+Use `issue_type=none` when the relevant part is visible and no issue is present. Use `unknown` when the issue or part cannot be determined.
+
+---
+
 ## Key Decisions
 
 ### Claim Status
