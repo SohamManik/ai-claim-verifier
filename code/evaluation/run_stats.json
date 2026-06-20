@@ -1,0 +1,22 @@
+{
+  "total_runtime_seconds": 1.92,
+  "total_api_calls": 0,
+  "api_calls_detail": {
+    "gemini": {
+      "success": 0,
+      "failure": 0
+    },
+    "groq": {
+      "success": 0,
+      "failure": 0
+    }
+  },
+  "calls_saved_by_gates": 0,
+  "total_images_sent": 29,
+  "total_images_failed": 0,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "claims_processed": 20,
+  "avg_claim_time_seconds": 0.095,
+  "estimated_cost": 0.0
+}

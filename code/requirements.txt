@@ -1,0 +1,7 @@
+# Multi-Modal Evidence Review - Dependencies
+# Install: pip install -r requirements.txt
+
+google-genai>=1.0.0
+groq>=0.12.0
+Pillow>=10.0.0
+python-dotenv>=1.0.0

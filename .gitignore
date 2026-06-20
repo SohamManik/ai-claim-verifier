@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+dataset/images/
+.pytest_cache/
+code.zip
+log.txt
+output.csv
+sample_output.csv
